@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "graphql-django"
+version = "0.1.0"
+description = ""
+authors = ["V0lsh3bn!k <hello@volshebnik.xyz>"]
+readme = "README.md"
+packages = [{include = "graphql_django"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django-graphql-auth = "^0.3.16"
+psycopg2 = "^2.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
